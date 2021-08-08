@@ -4,13 +4,13 @@ Fork this repo. Build a simple full stack app using frameworks of your choice. S
 to this repo with instruction on how to build/run it or, even better, a link to where we can see it already
 running/deployed. Alternatively, feel free to send us an archive file of the work.
 
-There is probably more here than can be finished in two hours. Don't worry about completeness. Focus on what's 
-important and interesting to you.   
+There is probably more here than can be finished in two hours. Don't worry about completeness. Focus on what's
+important and interesting to you.
 
-We use `Elixir`, `Ecto`, `Absinthe`, `GraphQL`, `Typescript/Javascript` and `React` at Vetspire but you are welcome to use 
+We use `Elixir`, `Ecto`, `Absinthe`, `GraphQL`, `Typescript/Javascript` and `React` at Vetspire but you are welcome to use
 whatever languages and frameworks you prefer.
 
-We encourage you to include a README with notes about your language and framework choices as well as your design 
+We encourage you to include a README with notes about your language and framework choices as well as your design
 decisions.
 
 ### Features
@@ -22,3 +22,11 @@ decisions.
     - The ability to choose a breed and display the image for it
 - Bonus Feature:
   - Ability to add a new breed with a new image
+
+
+# Boilerplate
+
+### Versions Available (by branch):
+- `main`: This repo is just intended as an empty starting point, with a very basic SERN full-stack structure and dependencies.
+
+- `with_redux`: SERN stack with Redux and RTK, with boilerplate code setup (Note: dependencies for Redux boiler last updated Feb 2020)
