@@ -1,32 +1,17 @@
-## Vetspire Take-home (max 2 hours)
+# Vetspire Take-home Challeng
+## Sunil Gadgil, Austin TX
 
-Fork this repo. Build a simple full stack app using frameworks of your choice. Submit your results as a pull request
-to this repo with instruction on how to build/run it or, even better, a link to where we can see it already
-running/deployed. Alternatively, feel free to send us an archive file of the work.
+Hello! Thank you for giving me the opportunity to complete this take-home challenge.
 
-There is probably more here than can be finished in two hours. Don't worry about completeness. Focus on what's
-important and interesting to you.
+I have created a simple React frontend with a Node/Express backend to serve up a list of dog breeds and images. There is also a capability to add new dog breeds and their images using the input form at the bottom of this SPA.
 
-We use `Elixir`, `Ecto`, `Absinthe`, `GraphQL`, `Typescript/Javascript` and `React` at Vetspire but you are welcome to use
-whatever languages and frameworks you prefer.
+I decided to build this using an MVC design pattern, using a `.txt` file (to store dog breed names) and an `/images` folder for my models, a React frontend as the view, and my server logic as my controller.
 
-We encourage you to include a README with notes about your language and framework choices as well as your design
-decisions.
+There were several interesting challenges associated with this project, including properly configuring Webpack, using the `multer` module to upload image files to the project directory, and the decision of whether to use the `axios` or `fetch` API to communicate with the backend. I used `fetch`, because it was acting in a blocking way so that React waited to re-render components until data came back to update state. 
 
-### Features
-- Backend API that serves:
-    - A list of available dog breeds based on those available in `/images`
-    - Individual dog images by breed
-- Frontend UI that provides:
-    - A list of dog breeds
-    - The ability to choose a breed and display the image for it
-- Bonus Feature:
-  - Ability to add a new breed with a new image
+Bonus: You'll see two additional breeds in the list, beyond what I was originally given. Enjoy the pictures of my own Lhasa Apso and Shih Tzu in there! Thank you, and I hope you enjoy. -Sunil Gadgil
 
-
-# Boilerplate
-
-### Versions Available (by branch):
-- `main`: This repo is just intended as an empty starting point, with a very basic SERN full-stack structure and dependencies.
-
-- `with_redux`: SERN stack with Redux and RTK, with boilerplate code setup (Note: dependencies for Redux boiler last updated Feb 2020)
+## Scripts to Run Project
+`cd technical-interview-challenge`
+`npm start` to start `nodemon` server process
+`npm run-script build` to run React on `http://34.204.95.224:3000/`
