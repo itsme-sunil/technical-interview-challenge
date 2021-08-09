@@ -14,4 +14,4 @@ Bonus: You'll see two additional breeds in the list, beyond what I was originall
 ## Scripts to Run Project
 `cd technical-interview-challenge` <br>
 `npm start` to start `nodemon` server process <br>
-`npm run-script build` to run React on `http://34.204.95.224:3000/` <br>
+`npm run-script build` to run React on http://34.204.95.224:3000/ <br>
