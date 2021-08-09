@@ -12,6 +12,6 @@ There were several interesting challenges associated with this project, includin
 Bonus: You'll see two additional breeds in the list, beyond what I was originally given. Enjoy the pictures of my own Lhasa Apso and Shih Tzu in there! Thank you, and I hope you enjoy. -Sunil Gadgil
 
 ## Scripts to Run Project
-`cd technical-interview-challenge`
-`npm start` to start `nodemon` server process
-`npm run-script build` to run React on `http://34.204.95.224:3000/`
+`cd technical-interview-challenge` <br>
+`npm start` to start `nodemon` server process <br>
+`npm run-script build` to run React on `http://34.204.95.224:3000/` <br>
