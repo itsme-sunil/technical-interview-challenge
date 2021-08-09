@@ -1,0 +1,12 @@
+Affenpinscher
+Border Collie
+Boxer
+Cocker Spaniel
+English Bulldog
+Great Dane
+Irish Terrier
+Norwich Terrier
+Pomeranian
+Shetland Sheepdog
+Lhasa Apso
+Shih Tzu
