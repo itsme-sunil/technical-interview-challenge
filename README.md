@@ -1,4 +1,4 @@
-# Vetspire Take-home Challeng
+# Vetspire Take-home Challenge
 ## Sunil Gadgil, Austin TX
 
 Hello! Thank you for giving me the opportunity to complete this take-home challenge.
