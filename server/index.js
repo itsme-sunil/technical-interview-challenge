@@ -3,7 +3,7 @@ const app = express();
 const path = require('path');
 const fs = require('fs');
 const cors = require('cors');
-const imageFilePath = path.join(__dirname, '../images');
+const imageFilePath = path.join(__dirname, '../dist/images');
 const breedsFilePath = path.join(__dirname, './db/breeds.txt');
 const PORT = 3004;
 
@@ -18,8 +18,8 @@ const storage = multer.diskStorage({
 })
 const upload = multer({ storage: storage });
 
-app.use(express.static(__dirname + '/images'));
-app.use('../images', express.static('images'));
+app.use(express.static('images'));
+app.use('/images', express.static('images'));
 app.use(express.json());
 app.use(cors());
 
@@ -34,7 +34,7 @@ const generateData = (input) => {
   let breeds = input.map(breed => (
     {
       name: breed,
-      image: `${imageFilePath}/${generateImageFileName(breed)}`,
+      image: `/images/${generateImageFileName(breed)}`,
       fileName: generateImageFileName(breed)
     }
   ));

@@ -54,15 +54,15 @@ export default function App() {
       })
       .catch(err => console.error(err.message));
 
-      fetch(url + '/upload', {
-        method: 'post',
-        body: data
+    fetch(url + '/upload', {
+      method: 'post',
+      body: data
+    })
+      .then(response => {
+        console.info(response);
+        getBreeds(newBreed);
       })
-        .then(response => {
-          console.info(response);
-          getBreeds(newBreed);
-        })
-        .catch(err => console.error(err.message));
+      .catch(err => console.error(err.message));
   };
 
   return (
