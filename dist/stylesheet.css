@@ -1,0 +1,47 @@
+table, table tr, table td {
+  padding: none;
+  border-spacing: 1;
+}
+
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+  display: flex;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.left {
+  width: 33%;
+}
+
+.right {
+  width: 66%;
+}
+
+table {
+  border: 1px;
+}
+
+td {
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+tr:nth-child(even) {
+  background-color: #e6f2ff;
+}
+
+.header {
+  color: #00004d;
+  border: none;
+}
+
+.selectedDog {
+  color: #00004d
+}
